@@ -1,0 +1,173 @@
+/* Section A --------------*/
+
+.bigbox {
+  display: flex;
+  /*background-color: #D8D8D8;*/
+  background-size: cover;
+  margin-top: 150px;
+  height: 300px;
+}
+
+.myslide {
+  display: flex;
+  height: 300px;
+  position: absolute;
+  min-width: 100%;
+  object-fit: cover;
+  overflow:hidden;
+}
+
+.infobox h2 {
+  margin: 0;
+}
+
+h2 {
+  font-family: Georgia;
+}
+
+p {
+  font-family: verdana;
+}
+
+.hyperlinks1{
+  display: inline-block;
+}
+
+.infobox {
+  display: inline-block;
+  padding: 25px 27px;
+  margin: 52px auto auto 30px;
+  background-color: black;
+  color: white;
+  z-index: 1;
+}
+
+a {
+text-decoration: none;
+font-family: verdana;
+color: white;
+}
+
+/* Section B ---------------------*/
+.aboutme {
+  margin-top: 100px;
+  height: 300px;
+  width: 450px;
+}
+.aboutme h2 {
+  font-size: 20pt;
+  color: #363636;
+  margin-top: 0;
+}
+.aboutme p
+{
+  font-size: 10pt;
+}
+
+.aboutme a
+{
+padding-right: 10px;
+color: #d8a7d8;
+}
+.aboutmepage {
+  display:flex;
+  justify-content: space-around;
+}
+
+.aboutmepic
+{
+  margin-top: 100px;
+  height: 410px;
+  width: 450px;
+  background-image: url(../images/weddingpic.jpg);
+  background-position:top;
+  margin-bottom: 100px;
+}
+
+/* SECTION C ------------*/
+
+.fixed {
+  position: fixed;
+  top: 100px;
+  right: 110px;
+}
+
+.fixed2{
+  position: fixed;
+  top:143px;
+  right: 110px;
+}
+
+.maw_nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.maw_nav a {
+  color: #d8a7d8;
+  font-size: 12px;
+  padding-left: 10px
+}
+
+.column h2 {
+  margin-top: 0px;
+}
+
+.column {
+  width: 1200px;
+  margin-top:100px;
+  margin-left: 110px;
+
+}
+
+.content {
+    width: 300px;
+}
+
+
+.selection {
+  display: block;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+  font-family: verdana;
+  font-size:12px;
+  padding:11px 20px;
+}
+nav a {
+  color: dimgray;
+}
+
+.portfolioselection h3 {
+  text-align: center;
+  font-family: georgia;
+  margin-top: 0px;
+}
+
+.portfolioselection{
+  width: 240px;
+  display: inline-block;
+}
+
+.mandalas img, .watercolor2 img, .watercolor4 img, .infographic1 img{
+  width: 500px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+
+.watercolor1 img, .watercolor3 img, .webdesign img {
+  width: 700px;
+  height: 500px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+
+.portfoliocode img {
+  width: 650px;
+  height: 600;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}

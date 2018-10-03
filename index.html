@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gabriela's Portfolio</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+  </head>
+  <body>
+
+<div class="bigbox">
+  <img class="myslide" src="./resources/images/blackmandala.jpg" alt="black mandala">
+  <img class="myslide" src="./resources/images/pinkflower2.jpg" alt="pink flower">
+  <img class="myslide" src="./resources/images/colorfulmandala.jpg" alt="colorful mandala">
+  <img class="myslide" src="./resources/images/beach.jpg" alt="beach">
+  <div class="infobox">
+    <h2>Gabriela Botura's Portfolio</h2>
+    <div class="hyperlinks1">
+      <br>
+    <a href="aboutme.html">About Me</a>
+    <br><br>
+    <a href="myartwork.html">My Artwork</a>
+  </div>
+</div>
+</div>
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("myslide");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+  </body>
+</html>
