@@ -119,10 +119,11 @@ color: #d8a7d8;
 
 .column {
   display: flex;
-  align-content: flex-end;
+  align-content: center;
   flex-direction: column;
   margin-top:100px;
   margin-right: 110px;
+  margin-left: 450px;
 
 }
 
@@ -145,9 +146,6 @@ color: #d8a7d8;
   font-size: 10pt;
 }
 
-.content {
-  margin-left: 450pt;
-}
 
 #nav a {
   display: block;
