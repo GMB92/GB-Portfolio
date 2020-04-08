@@ -146,9 +146,11 @@ color: #d8a7d8;
     flex-direction: column;
     align-items: flex-end;
 }
+/*
 .heading, .content p, .infographic1{
   text-align: left;
 }
+*/
 
 .content p {
   font-size: 10pt;
@@ -188,7 +190,6 @@ nav a {
   background-repeat: no-repeat;
   padding-bottom: 20px;
 }
-.webdesign {text-align: left;}
 
 .watercolor1 img, .watercolor3 img, .webdesign img {
   width: 700px;
