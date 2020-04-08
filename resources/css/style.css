@@ -187,6 +187,9 @@ nav a {
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .watercolor1 img, .watercolor3 img, .webdesign img {
