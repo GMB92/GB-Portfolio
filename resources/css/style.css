@@ -121,6 +121,7 @@ color: #d8a7d8;
   padding-left: 10px
 }
 
+/*Moves My Artwork header to the left and bumps it up to align with the links*/
 .column h2 {
   margin-top: 0px;
   width: 700px;
