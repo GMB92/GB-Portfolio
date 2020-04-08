@@ -151,6 +151,10 @@ color: #d8a7d8;
   font-size: 10pt;
 }
 
+#design_title
+{
+  text-align: left;
+}
 
 #nav a {
   display: block;
